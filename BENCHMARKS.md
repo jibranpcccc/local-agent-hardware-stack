@@ -19,3 +19,14 @@ $$\text{VRAM}_{\text{Total}} = \text{Weights}_{\text{GB}} + \text{KV\_Cache}_{\t
 
 ---
 Empirical benchmark suite provided by [LocalAgentStack](https://jibranpcccc.github.io/digitalcreatoravi-seo-engine/).
+
+## 📚 In-Depth Technical Implementation Guides
+
+| Target Engineering Query | Production Reference & Guide URL |
+| :--- | :--- |
+| **Ollama Vs Vllm Benchmark 2026** | [https://jibranpcccc.github.io/digitalcreatoravi-seo-engine/inference/ollama-vs-vllm-benchmark/](https://jibranpcccc.github.io/digitalcreatoravi-seo-engine/inference/ollama-vs-vllm-benchmark/) |
+| **Deepseek R1 Local Setup Ollama** | [https://jibranpcccc.github.io/digitalcreatoravi-seo-engine/models/deepseek-r1-local-setup-ollama/](https://jibranpcccc.github.io/digitalcreatoravi-seo-engine/models/deepseek-r1-local-setup-ollama/) |
+| **Vram Requirements Calculator 70B** | [https://jibranpcccc.github.io/digitalcreatoravi-seo-engine/hardware/vram-requirements-calculator-70b/](https://jibranpcccc.github.io/digitalcreatoravi-seo-engine/hardware/vram-requirements-calculator-70b/) |
+| **Llama.Cpp Vs Vllm Memory Overhead 4-Bit** | [https://jibranpcccc.github.io/digitalcreatoravi-seo-engine/hardware/llamacpp-vs-vllm-4bit-memory-overhead/](https://jibranpcccc.github.io/digitalcreatoravi-seo-engine/hardware/llamacpp-vs-vllm-4bit-memory-overhead/) |
+| **Deepseek R1 32B Vs 70B Coding Benchmark** | [https://jibranpcccc.github.io/digitalcreatoravi-seo-engine/models/deepseek-r1-32b-vs-70b-coding/](https://jibranpcccc.github.io/digitalcreatoravi-seo-engine/models/deepseek-r1-32b-vs-70b-coding/) |
+
