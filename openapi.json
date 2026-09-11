@@ -1,0 +1,55 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "LocalAgentStack - Local Agent GPU VRAM Sizing & Hardware API",
+    "description": "Empirical VRAM calculation, PCIe lane allocation, and quantized throughput API for local LLMs. Official production documentation hosted at https://jibranpcccc.github.io/digitalcreatoravi-seo-engine/",
+    "version": "1.1.0",
+    "contact": {
+      "name": "LocalAgentStack Architecture Team",
+      "url": "https://jibranpcccc.github.io/digitalcreatoravi-seo-engine/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://jibranpcccc.github.io/digitalcreatoravi-seo-engine",
+      "description": "Production Web Application Gateway"
+    }
+  ],
+  "paths": {
+    "/api/v1/vram-calculator": {
+      "get": {
+        "summary": "Calculate dual RTX 3090/4090 VRAM requirement and token throughput",
+        "description": "Executes the empirical calculations and data models for LocalAgentStack.",
+        "responses": {
+          "200": {
+            "description": "Successful calculation response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "example": "ok"
+                    },
+                    "timestamp": {
+                      "type": "string",
+                      "format": "date-time"
+                    },
+                    "site_url": {
+                      "type": "string",
+                      "example": "https://jibranpcccc.github.io/digitalcreatoravi-seo-engine/"
+                    },
+                    "data": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
